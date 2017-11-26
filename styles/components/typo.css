@@ -1,0 +1,166 @@
+/* typography */
+@font-face {
+  font-family: 'Bold'; 
+  src: url(../../fonts/OpenSans-Bold.ttf);
+ }
+
+ @font-face {
+  font-family: 'Light'; 
+  src: url(../../fonts/OpenSans-Light.ttf);
+ }
+ 
+ @font-face {
+  font-family: 'Regular'; 
+  src: url(../../fonts/OpenSans-Regular.ttf);
+ }
+ 
+ @font-face {
+  font-family: 'Italic'; 
+  src: url(../../fonts/OpenSans-Italic.ttf);
+ }
+ 
+ @font-face {
+  font-family: 'sBold'; 
+  src: url(../../fonts/OpenSans-Semibold.ttf);
+ }
+
+.title {
+  display: block;
+  font-size: 18px;
+  color: #4c5b6c;
+  font-family: 'sBold', sans-serif; 
+  margin-top:0;
+}
+
+.title-lg {
+  font-size: 30px;
+}
+.search-title {
+  margin-bottom:10px;	
+}
+.post-title {
+  font-size: 14px;
+  color: #81899a;
+  font-family: 'Light', sans-serif; 
+}
+
+.heading {
+  position: relative;
+}
+
+.heading .title {
+  margin:0;
+  margin-bottom:20px;
+  text-align:left;
+}
+
+.heading .title-lg {
+  margin-bottom:30px;
+}
+
+.heading .heading-figure {
+  position:absolute;
+  right:0;
+  top:0;
+  margin-top:-5px;
+  margin-right: 8px;
+  max-height: 24px;
+}
+
+.heading .heading-figure img {
+  max-height: 24px;
+}
+
+.heading-lg .title {
+  font-size: 20px;
+}
+
+.heading-decor:before {
+  display:none;
+}
+
+@media (min-width: 768px) { 
+  .heading-decor:before {
+    display:block;
+    background-image:url(../../images/global/heading.png);
+    background-repeat:no-repeat;
+    height: 35px;
+    width: 92px;
+    content:"";
+    position:absolute;
+    right:0;
+    top:0;
+    margin-top:-10px;
+  }
+}
+
+a {
+  color: #3683da;
+}
+
+.a-inherit {
+  color:inherit;
+}
+
+.a-link {
+  text-decoration:underline;
+}
+
+.no-decor {
+  text-decoration: none !important;
+ }
+
+.link-primary {
+  color: #6aafff;
+}
+
+.date {
+  font-size: 11px;
+  color: #6d7b89;
+}
+
+.text-bold {
+	font-weight: 700;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.text-primary {
+  color: #2c71be !important;
+}
+
+.text-danger {
+  color: #ef2828 !important;
+}
+
+.text-lg {
+  font-size: 18px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.ol-num {
+  margin-right: 5px;
+}
+
+@media (max-width: 767px) {
+  .heading .title-margin {
+    margin-top: -10px;
+    margin-bottom: 21px;
+  }
+
+  .heading .title--order {
+    margin-bottom: 17px;
+  }
+  .search-title {
+  margin-bottom:10px !important;	
+  }
+  .sorting > .bootstrap-select > .dropdown-toggle {
+	 padding-left: 5px !important;
+     padding-right: 5px !important;
+     padding-top: 3px !important;
+     padding-right: 3px !important;	 
+  }
+}

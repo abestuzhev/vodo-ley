@@ -1,0 +1,182 @@
+/* gallery */
+.gallery-box{
+  width: 100%;
+  height: 420px;
+  padding:0;
+  margin:0 auto;
+  position:relative;
+  background-color: #fff;
+  border-radius:10px;
+  border: 1px solid #c6ceda;
+}
+
+.view{
+  position:relative;
+  margin:0 0 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.big-image {
+  display:block;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+}
+
+.big-image div,
+.thumbnails a div {  
+  position:relative;
+  height:100%;
+  width:100%;
+}
+
+.big-image img,
+.thumbnails a img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height:100%;
+  margin:0 auto;
+}
+
+
+.prev, 
+.next {
+  position:absolute;  
+  width:60px;
+  height:60px;
+  border:1px solid  #bfc0c1;
+  border-radius:50%;
+  text-align:center;
+  line-height:60px;
+  top:50%;
+  margin-top: -30px;
+  text-decoration: none !important;
+}
+
+.prev {
+  left:20px; 
+  
+}
+
+.next {
+  right:20px;
+  
+}
+.next img {
+	padding-left: 7px;
+}
+.prev img{
+	padding-right: 7px;
+}	
+.prev:hover, 
+.next:hover {
+  background-color: #eeeff1;
+}
+
+.prev img,
+.next img {
+  top: 0;
+  left:0;
+  right:0;
+}
+#intro-carousel .prev img,
+#intro-carousel .next img {
+  margin-top: 30px;
+}
+.thumbnails {
+  position:absolute;
+  bottom: 25px;
+  left:0;
+  right:0;
+  text-align:center;
+}
+ 
+.thumbnails a {
+  margin:0 5px 0 0;
+  height: 58px;
+  width: 58px;
+  display:inline-block;
+  position:relative;
+  background-color: #fff;
+  border: 2px solid #c6ceda;
+  outline: inset 1px solid transparent;
+  border-radius:4px;
+  padding: 6px;
+  overflow:hidden;
+}
+
+.thumbnails a.active {
+  border-color:#174b93;
+  outline: inset 1px solid #174b93;
+}
+
+.thumbnails a.disable {
+  background-image:url(../../images/icons/i-camera.png);
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+  cursor:default;
+}
+
+.thumbnails a img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height:100%;
+  margin:0 auto;
+}
+
+@media (max-width: 767px) {
+  .slider {
+    margin-bottom: 96px;
+  }
+
+  .thumbnails {
+    bottom: -74px;
+    z-index: 0;
+  }
+
+  .prev,
+  .next {
+    border: none;
+    top: calc(100% + 10px);
+    z-index: 1;
+
+    margin-top: 0;
+  }
+
+  .prev:hover,
+  .next:hover {
+    background: none;
+  }
+
+  .prev {
+    text-align: left;
+  }
+
+  .next {
+    text-align: right;
+  }
+
+  /*.thumbnails .prev,*/
+  /*.thumbnails .next {*/
+    /*position: absolute;*/
+    /*top: 0;*/
+
+    /*border: none;*/
+    /*background: none;*/
+  /*}*/
+}
+
+
+
+

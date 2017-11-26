@@ -1,0 +1,36 @@
+/* all styles*/
+
+/*bootstrap*/
+@import "styles/bootstrap.min.css";
+@import "styles/font-awesome.min.css";
+@import "styles/jquery.scrollbar.css";
+
+/*components*/
+@import "styles/components/global.css";
+@import "styles/components/typo.css";
+@import "styles/components/icons.css";
+@import "styles/components/bootstrap-select.css";
+@import "styles/components/buttons.css";
+@import "styles/components/form.css";
+@import "styles/components/nouislider.css";
+@import "styles/components/tabs.css";
+@import "styles/components/navs.css";
+
+@import "styles/components/items.css";
+@import "styles/components/panels.css";
+@import "styles/components/filtr.css";
+@import "styles/components/products.css";
+@import "styles/components/gallery.css";
+@import "styles/components/owl.carousel.css";
+@import "styles/components/carousel.css";
+@import "styles/components/modal.css";
+@import "styles/components/sections.css";
+@import "styles/components/navbar.css";
+@import "styles/components/nav-mobile.css";
+@import "styles/components/cabinet.css";
+
+
+/*layouts*/
+@import "styles/layouts/header.css";
+@import "styles/layouts/sidebar.css";
+@import "styles/layouts/footer.css";

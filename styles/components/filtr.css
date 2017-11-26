@@ -1,0 +1,54 @@
+/* filtr */
+/*accordion-filtr*/
+
+.filtr .panel-collapse {
+  margin:0;
+}
+#accordionFiltrTwo .form-group {
+  margin-bottom: 0;
+}
+.filtr .panel-body {
+  border: none !important;
+  padding:0;
+}
+
+.filtr .panel-heading {
+  padding:0;
+  padding-top: 10px;
+
+}
+
+.filtr .panel-title>a:before,
+.filtr .panel-title>a:after {
+  height: 16px;
+  width:16px;
+  line-height: 16px;
+  transform: rotate(0);
+  border:none;
+}
+
+.filtr .panel-title>a:after {
+  background-color:#c6ceda;
+}
+
+.filtr .panel-title>a:before {
+  content: "\e904";
+  color: #fff;
+  font-size: 8px;
+  z-index:1;
+}
+
+.filtr .panel-title>a.collapsed:after { 
+  background-color: #3ca6df;
+}
+
+.filtr .panel-title>a.collapsed:before { 
+  content: "\e905";
+}
+
+/*filtr*/
+.filtr {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+

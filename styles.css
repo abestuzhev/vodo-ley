@@ -1,0 +1,53 @@
+.poduct-item .title {
+    height: 3.5em !important;
+}
+
+.bx-basket.top-basket {
+    cursor: pointer;
+}
+.noUi-horizontal .noUi-handle {
+    cursor: pointer !important;
+}
+
+.text-center.error {
+    color: red !important;
+}
+
+
+.old-version {
+    background-color: #282c2d;
+    padding: 15px 0;
+}
+
+.old-version a.yes {
+
+}
+
+.old-version a.no {
+
+}
+
+.old-version span {
+    color:#c1c1c1;
+    font-family: 'Light', sans-serif; 
+    font-size: 14px;
+}
+
+.old-version a.oldbtn {
+    border: 1px solid #c1c1c1;
+    background: transparent;
+    font-size: 14px;
+    font-family: 'Light', sans-serif; 
+    padding: 2px 31px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #c1c1c1;
+}
+.old-version a.oldbtn:hover {
+    text-decoration: none;
+    background: #2c71be;
+    color: white;
+    border: 1px solid transparent;
+}

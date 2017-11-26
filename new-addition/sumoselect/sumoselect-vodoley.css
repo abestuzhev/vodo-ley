@@ -1,0 +1,55 @@
+.c-select {
+    display: block;
+    height: 45px;
+    width: 100%;
+    padding: 6px 8px;
+    border-color: #cdd7ec;
+    box-shadow: none !important;
+    outline: none !important;
+    font-size: 13px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.SumoSelect {
+    display: block;
+    width: 100% !important;
+}
+
+.SumoSelect > .CaptionCont {
+    width: 100%;
+    min-height: 45px;
+    border-color: #cdd7ec;
+    box-shadow: none !important;
+    outline: none !important;
+    font-size: 13px;
+    color: #81899a;
+    height: 45px;
+    padding: 6px 12px;
+}
+
+.SumoSelect > .CaptionCont > span {
+    width: 100%;
+    line-height: 2.5;
+}
+
+.SumoSelect label {
+    margin-bottom: 0;
+}
+
+.SumoSelect > .CaptionCont > label {
+    color: #c4ccd7 !important;
+}
+
+.SumoSelect > .CaptionCont > label > i {
+    opacity: 0.3;
+    width: 10px;
+    height: 10px;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.SumoSelect > .optWrapper > .options li label {
+    text-align: center;
+}
