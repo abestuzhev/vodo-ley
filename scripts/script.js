@@ -1,5 +1,13 @@
 $(document).ready(function () {
 
+
+
+
+    /**/
+
+
+
+    /*скрипты для работы datepicker и селект*/
     var $datepicker = $('.datepicker-here');
     $datepicker.datepicker({
         minDate: new Date()
@@ -10,6 +18,8 @@ $(document).ready(function () {
     $datepicker.on('focus', function(){
         $(this).parents('.datepicker-layout').addClass('active-datepicker');
     });
+
+    /* END скрипты для работы datepicker и селект*/
 
 
 

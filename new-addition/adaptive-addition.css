@@ -1,0 +1,139 @@
+#modalBackCall .tab {
+    padding: 5px;
+}
+#modalBackCall .tabs-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+#modalBackCall .tabs-menu__item {
+    display: inline-block;
+    background-color: #fff;
+    font-size: 0;
+}
+
+#modalBackCall .tabs-menu__item a {
+    padding: 11px 7px;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #dedede;
+    padding-left: 33px;
+    position: relative;
+}
+#modalBackCall .tabs-menu__item a::before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 9px;
+    width: 17px;
+    height: 17px;
+    background: url('../images/icons/i-phone.png') 0 0 no-repeat;
+}
+
+#modalBackCall .tabs-menu__item:last-child {
+    margin-right: 0;
+}
+
+#modalBackCall .tabs-menu__item.current {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+#modalBackCall .tabs-menu__item.current a {
+    color: #ffffff;
+    background: linear-gradient(to bottom, #3ca5df, #3787da);
+}
+
+#modalBackCall .tabs-menu__item.current a::after {
+    content: '';
+    border: none;
+}
+
+#modalBackCall .tab-content {
+    display: none;
+}
+
+#modalBackCall .tab-content:first-child {
+    display: block;
+}
+
+
+@media screen and (max-width: 767px) {
+    /*добавляем модалку в "обратном звонке"-------------------------------*/
+    #modalBackCall .modal-header {
+        background: #fff !important;
+    }
+
+
+    #modalBackCall .modal-title {
+        display: none;
+    }
+    #modalBackCall .close {
+        background-color: #dedede;
+        padding: 7px;
+    }
+    #modalBackCall .modal-header {
+        padding: 7px;
+    }
+
+    #modalBackCall .tabs-menu {
+        display: block;
+    }
+
+    #modalBackCall .modal-body__himself p {
+        font-size: 15px;
+        color: #81899a;
+        margin-bottom: 18px;
+
+    }
+    #modalBackCall .modal-body__himself span {
+        color: #3ca6df;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #modalBackCall .tabs-menu .tabs-menu__item:nth-child(1) {
+        width: 116px;
+    }
+    #modalBackCall .tabs-menu .tabs-menu__item:nth-child(2) {
+        width: 134px;
+    }
+
+    #modalBackCall .close {
+        background-color: #dedede;
+        padding: 8px;
+    }
+
+    #modalBackCall .modal-header .close {
+        margin-top: -2px;
+    }
+
+    #modalBackCall .tabs-menu__item a {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    /*убираем карту в оформлении закза -------------------------------*/
+    #delivery2 .col-md-6 > label {
+        display: none;
+    }
+    #adressMap {
+        display: none !important;
+    }
+
+
+
+}
+
